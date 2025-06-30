@@ -10,14 +10,14 @@
     "generate": "drizzle-kit generate",
     "migrate": "tsx src/drizzle/migrate.ts",
     "seed": "tsx src/drizzle/seed.ts",
-     "push": "drizzle-kit push"
-   
+    "push": "drizzle-kit push"
   },
   "keywords": [],
   "author": "Charles",
   "license": "ISC",
   "packageManager": "pnpm@10.11.0",
   "dependencies": {
+    "@neondatabase/serverless": "^1.0.1",
     "@types/express": "^5.0.2",
     "bcrypt": "^6.0.0",
     "bcryptjs": "^3.0.2",
