@@ -8,7 +8,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 //     console.log("server running on http://localhost:8081");
 // })
 const index_1 = __importDefault(require("./index"));
-const PORT = process.env.PORT || 8080;
+const PORT = 8080;
 index_1.default.listen(PORT, () => {
     console.log(`Server is running on port http://localhost:${PORT}`);
 });
