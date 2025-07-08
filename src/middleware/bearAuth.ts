@@ -33,7 +33,7 @@ export const checkRoles = (requiredRole:"admin" | "user" | "both") => {
             }
             res.status(401).json({ message: 'Unauthorized' });
         } else {
-            res.status(401).json({ message: 'Invalid tiken payload' });
+            res.status(401).json({ message: 'Invalid token payload' });
         }
         } catch (error) {
             res.status(401).json({ message: 'Invalid token' });

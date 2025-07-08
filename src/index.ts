@@ -15,9 +15,10 @@ const app = express();
 
 //middleware
 app.use(cors({
-    origin: ' http://localhost:5173', 
-    methods: ['GET', 'POST', 'PUT', 'DELETE'], 
+  origin: ['http://localhost:5173', 'https://car-frontend-umber.vercel.app'],
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
 }));
+
 app.use(express.json());
 
 
